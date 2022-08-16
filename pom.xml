@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.1</version>
+		<version>2.7.2</version>
 		<relativePath />
 	</parent>
 	<groupId>com.alovoa</groupId>
@@ -138,7 +138,7 @@
 		<dependency>
 			<groupId>com.sipgate</groupId>
 			<artifactId>mp3-wav</artifactId>
-			<version>1.0.3</version>
+			<version>1.0.4</version>
 		</dependency>
 		<dependency>
 		    <groupId>com.github.gotson</groupId>
@@ -153,7 +153,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>1.6.9</version>
+			<version>1.6.10</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springdoc</groupId>
@@ -208,7 +208,7 @@
 			<plugin>
 				<groupId>com.github.ulisesbocchio</groupId>
 				<artifactId>jasypt-maven-plugin</artifactId>
-				<version>3.0.3</version>
+				<version>3.0.4</version>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
