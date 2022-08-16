@@ -1,6 +1,7 @@
 name: Java CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -10,7 +11,7 @@ jobs:
   build:
 
     runs-on: ubuntu-20.04
-
+    name: Run Tests
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-java@v2
